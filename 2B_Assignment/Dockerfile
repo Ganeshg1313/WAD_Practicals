@@ -1,4 +1,4 @@
-FROM ubuntu:20.12.2
+FROM node:20.12.2
 
 COPY package.json package.json
 COPY package-lock.json package-lock.json
