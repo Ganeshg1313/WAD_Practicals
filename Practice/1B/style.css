@@ -1,0 +1,64 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  /* Style the form input fields */
+  form {
+    margin-bottom: 20px;
+    width: 50%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  button[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the table container */
+  .table-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Style the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the table header */
+  th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style the table rows */
+  td {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Style the alternating row background color */
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
